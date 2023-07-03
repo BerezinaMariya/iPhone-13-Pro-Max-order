@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Order</title>
+</head>
+<body>
+<header>
+    <nav>
+        <a href="index.html">Главная</a>
+        <a href="index.html#comparativeTable">Сравнение с 13 Pro</a>
+        <a href="reviews.html">Отзывы</a>
+        <a href="order.html">Заказать</a>
+    </nav>
+</header>
+<main>
+    <h1>Заказать Iphone 13 Pro Max</h1>
+    <form action="https://webhook.site/25c03f53-b2be-4ad3-8d20-f49d26dafae1" method="post">
+        <label>
+            Имя
+            <input type="text" name="name" required>
+        </label>
+        <br>
+        <br>
+        <label>
+            Фамилия
+            <input type="text" name="surname" required>
+        </label>
+        <br>
+        <br>
+        <label>
+            Телефон
+            <select name="phoneCode" required>
+                <option value="Belarus">+375</option>
+                <option value="Russia">+7</option>
+                <option value="Ukraine">+380</option>
+            </select>
+            <input type="tel" name="phoneNumber" maxlength="10" required>
+        </label>
+        <br>
+        <br>
+        <label>
+            Email
+            <input type="email" name="email" required>
+        </label>
+        <br>
+        <br>
+        <label>
+            Объём памяти
+            <select name="storageSpace">
+                <option value="64">64</option>
+                <option value="256">256</option>
+                <option value="512">512</option>
+            </select>
+        </label>
+        <br>
+        <br>
+        <div>
+            Способ доставки
+            <br>
+            <label>
+                <input type="radio" name="delivery" value="courier" checked required> Курьером
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="delivery" value="pickup" required> Самовывоз
+            </label>
+            <br>
+        </div>
+        <br>
+        <div>
+            Добавить к заказу
+            <br>
+            <label>
+                <input type="checkbox" name="addToOrder[]" value="transCase"> Прозрачный чехол
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" name="addToOrder[]" value="magSafe"> Беспроводное зарядное устройство MagSafe
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" name="addToOrder[]" value="airPods"> Наушники AirPods
+            </label>
+        </div>
+        <br>
+        <label>
+        Комментарий к заказу
+            <br>
+            <textarea name="commentToOrder" cols="30" rows="10"></textarea>
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="agreed" value="agreed"> Принимаю <a href="https://berezinamariya.github.io/how-to-learn/" target="_blank">условия сайта</a>
+        </label>
+        <br>
+        <br>
+        <button type="submit">Заказать</button>
+    </form>
+</main>
+<footer>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <p>Все права защищены</p>
+</footer>
+</body>
+</html>
